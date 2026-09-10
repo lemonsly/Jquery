@@ -1,0 +1,11 @@
+<p id="caixa">Esta caixa vai sumir e aparecer novamente com animação.</p>
+<button id="btn-toggle">Alternar Visibilidade</button>
+
+
+<script>
+ $(document).ready(function() {
+ $('#btn-toggle').click(function() {
+ $('#caixa').toggle(500); // Transição em 500 milissegundos
+ });
+ });
+</script>
