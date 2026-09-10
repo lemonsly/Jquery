@@ -1,0 +1,16 @@
+<style>
+ .card { padding: 10px; border: 1px solid #ccc; background: #f9f9f9; }
+ .ativo { background: #d1fae5; border-color: #10b981; font-weight: bold; }
+</style>
+<div id="card" class="card">Cartão de Exemplo</div>
+<button id="btn-estilo">Ativar / Desativar</button>
+
+
+<script>
+ $(document).ready(function() {
+ $('#btn-estilo').click(function() {
+ $('#card').toggleClass('ativo');
+ });
+ });
+</script>
+
